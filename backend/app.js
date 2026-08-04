@@ -10,7 +10,7 @@ const menuRouter = require('./routes/OrderRoutes/orders.routes')
 const cors = require('cors')
 var app = express();
 
-app.use(cors({ origin: ['http://localhost:5173'] }))
+app.use(cors({ origin: ['http://localhost:5173','https://bite-quick-eta.vercel.app/'] }))
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
